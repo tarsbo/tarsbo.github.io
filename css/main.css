@@ -73,16 +73,16 @@ a {
 	position: absolute;
 }
 
-@media only screen and (min-wdith: 25em) {
+@media only screen and (min-width: 25em) {
 
 }
 
-@media only screen and (min-wdith: 38em) {
+@media only screen and (min-width: 38em) {
 	.nav li {
 	display: inline-block;
 	}
 }
 
-@media only screen and (min-wdith: 60em) {
+@media only screen and (min-width: 60em) {
 	
 }
