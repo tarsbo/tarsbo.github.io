@@ -43,9 +43,11 @@ fieldset, pre, table {
   line-height: 1.4798;
 }
 
+
 h1, .exa {
-  font-size: 1.8020rem;
+  font-size: 1.3020rem;
   line-height: 1.6648;
+  font-family: 'Lato', sans-serif;
 }
 
 h2, .peta {

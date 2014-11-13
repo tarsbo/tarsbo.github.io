@@ -48,29 +48,34 @@ a {
 .nav a {
 	display: block;
 	text-decoration: none;
+	font-family: 'Lato', sans-serif;
 }
 
 .footer {
+	margin: 0 auto;
+	color: #81cdbd;
 	text-align: center;
-	colour: #81cdbd;
+	font-family: 'Lato', sans-serif;
 }
 
 .banner {
 	text-align: center;
+	position: relative;
 
 }
 
 .banner-img {
 	padding-top: 56.25%;
-	background: #ccc url("http://placehold.it/1920x108") no-repeat center center;
+	background: #ccc url("http://placehold.it/1920x750") no-repeat center center;
 	background-size: cover;
 
 }
 
-.intro-wrap {
+.welcome-wrap {
 	color: #fff;
-	bottom: 0;
+	bottom: 20%;
 	position: absolute;
+	width: 100%;
 }
 
 @media only screen and (min-width: 25em) {
