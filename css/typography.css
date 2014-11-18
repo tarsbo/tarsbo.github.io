@@ -56,6 +56,7 @@ h2, .peta {
   font-family: 'Lato', sans-serif;
   color: #6c6c6c;
   text-align: center;
+  padding-top: 2em;
 }
 
 h3, .tera {
@@ -102,6 +103,11 @@ sup {
 
 sub {
   bottom: -0.25em;
+}
+
+p {
+  font-size: 0.8889rem;
+  line-height: 1rem;
 }
 
 .text-left {

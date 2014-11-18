@@ -20,6 +20,7 @@ html {
 body {
 	margin: 0;
 	padding: 0;
+	color: #6c6c6c;
 }
 
 .flex {
@@ -52,6 +53,7 @@ a {
 }
 
 .footer {
+	clear: both;
 	margin: 0 auto;
 	color: #81cdbd;
 	text-align: center;
@@ -76,6 +78,16 @@ a {
 	bottom: 20%;
 	position: absolute;
 	width: 100%;
+}
+
+
+.about{
+	width: 100%;
+	padding: 3em;
+}
+
+.biotext {
+	padding-left: 2em;
 }
 
 @media only screen and (min-width: 25em) {
