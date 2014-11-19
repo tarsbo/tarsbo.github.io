@@ -108,6 +108,7 @@ sub {
 p {
   font-size: 0.8889rem;
   line-height: 1rem;
+  font-family: sans-serif;
 }
 
 .text-left {
@@ -127,7 +128,7 @@ p {
 }
 
 .push-none, .push-0 {
-  margin-bottom: 0;
+  padding: 1.5em;
 }
 
 .push-double, .push-2 {

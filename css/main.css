@@ -23,9 +23,17 @@ body {
 	color: #6c6c6c;
 }
 
+.img {
+	width: 100%;
+}
+
 .flex {
 	display: block;
-	width: 100%;
+}
+
+.button {
+	width: 35%;
+	padding: none;
 }
 
 .section-dark {
@@ -50,6 +58,7 @@ a {
 	display: block;
 	text-decoration: none;
 	font-family: 'Lato', sans-serif;
+	height: 2.5em;
 }
 
 .footer {
@@ -88,6 +97,10 @@ a {
 
 .biotext {
 	padding-left: 2em;
+}
+
+.work {
+	padding: 3em;
 }
 
 @media only screen and (min-width: 25em) {
