@@ -28,12 +28,8 @@ body {
 	width: 100%;
 }
 
-.flex {
-	display: block;
-}
-
-.button {
-	width: 15%;
+.social {
+	width: 24px;
 	padding: none;
 }
 
@@ -61,22 +57,27 @@ a {
 }
 
 .nav a {
-	display: block;
+	display: inline-block;
 	text-decoration: none;
 	font-family: 'Lato', sans-serif;
 	height: 2.5em;
+	vertical-align: middle;
 }
 
 .first {
-
+	text-align: right;
 }
 
 .second {
-
+	text-align: center;
 }
 
 .third {
+	text-align: left;
+}
 
+.logobackground {
+	width: 100px;
 }
 
 .nav-btn,
@@ -114,6 +115,7 @@ a {
 
 .banner {
 	text-align: center;
+	position: relative;
 
 }
 
@@ -140,12 +142,9 @@ a {
 	padding-left: 2em;
 }
 
-.work {
-	padding-left: 3em;
-}
 
-.contactinfo {
-	padding: 3em;
+.work {
+		text-align: center;
 }
 
 label {
@@ -182,8 +181,20 @@ button {
 }
 
 
-@media only screen and (min-width: 25em) {
+@media only screen and (min-width: 20em) {
 
+	.first,
+	.third {
+		display: none;
+	}
+
+
+.contact {
+	text-align: center;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-bottom: 1em;
+}
 
 
 }
@@ -193,15 +204,25 @@ button {
 	.nav li {
 	display: inline-block;
 	}
-	.photospace{
-		padding: 5em;
-	}
 
 	.nav-btn,
 	.nav-btn:link,
 	.nav-btn:visited {
 		display: none;
 	}
+
+	.first,
+	.third {
+		display: inline-block;
+	}
+
+
+.contact {
+	text-align: center;
+	padding-left: 10em;
+	padding-right: 10em;
+	padding-bottom: 1em;
+}
 
 }
 
