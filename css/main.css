@@ -128,7 +128,6 @@ a {
 	width: 100%;
 }
 
-
 .about{
 	width: 100%;
 	padding: 3em;
@@ -142,6 +141,44 @@ a {
 	padding-left: 3em;
 }
 
+.contactinfo {
+	padding: 3em;
+}
+
+label {
+	display: block;
+}
+
+form div {
+	margin-bottom: 1.5rem;
+}
+
+input,
+select,
+textarea {
+	font-size: 1.125rem;
+	width: 15em;
+}
+
+textarea {
+	height: 10em;
+}
+
+input,
+textarea {
+	border: 1px solid #ccc;
+	padding: 0.3em;
+}
+
+button {
+	padding: 0.5em 0.75em;
+	background-color: #fff;
+	border: 2px solid #81cdbd;
+	color:#6c6c6c;
+	cursor: pointer;
+}
+
+
 @media only screen and (min-width: 25em) {
 
 }
@@ -149,6 +186,9 @@ a {
 @media only screen and (min-width: 38em) {
 	.nav li {
 	display: inline-block;
+	}
+	.photospace{
+		padding: 5em;
 	}
 }
 
