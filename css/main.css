@@ -20,7 +20,8 @@ html {
 body {
 	margin: 0;
 	padding: 0;
-	color: #6c6c6c;
+	color: #6c6c6c;    
+	background: transparent url("../images/background.png") repeat 0 0;
 }
 
 .img {
@@ -49,6 +50,7 @@ a {
 	position: fixed;
 	width: 100%;
 	z-index: 1000;
+	background: transparent url("../images/nav-background.png") repeat 0 0;
 }
 
 .nav {
@@ -107,6 +109,7 @@ a {
 	color: #81cdbd;
 	text-align: center;
 	font-family: 'Lato', sans-serif;
+	background: transparent url("../images/nav-background.png") repeat 0 0;
 }
 
 .banner {
@@ -181,17 +184,37 @@ button {
 
 @media only screen and (min-width: 25em) {
 
+
+
 }
 
 @media only screen and (min-width: 38em) {
+
 	.nav li {
 	display: inline-block;
 	}
 	.photospace{
 		padding: 5em;
 	}
+
+	.nav-btn,
+	.nav-btn:link,
+	.nav-btn:visited {
+		display: none;
+	}
+
 }
 
 @media only screen and (min-width: 60em) {
-	
+
+	.nav-btn,
+	.nav-btn:link,
+	.nav-btn:visited {
+		display: none;
+	}	
 }
+
+
+
+
+
