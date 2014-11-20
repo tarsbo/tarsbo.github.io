@@ -46,6 +46,7 @@ a {
 
 .masthead {
 	text-align: center;
+	position: fixed;
 }
 
 .nav {
