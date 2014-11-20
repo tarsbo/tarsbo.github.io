@@ -61,6 +61,30 @@ a {
 	height: 2.5em;
 }
 
+.nav-btn,
+.nav-btn:link,
+.nav-btn:visited {
+	top: 0.9em;
+	height: 40px;
+	overflow: hidden;
+	position: absolute;
+	right: 10px;
+	width: 46px;
+	background: transparent url("../images/nav-icon.svg") no-repeat 0 0;
+	text-indent: 100%;
+	white-space: nowrap;
+}
+.nav-btn:hover,
+.nav-btn:focus,
+.nav-btn:active {
+	background-color: #000;
+	background-position: 0 -40px;
+}
+.nav-btn[data-state="active"] {
+	background-color: #000;
+	background-position: -46px -40px;
+}
+
 .footer {
 	clear: both;
 	margin: 0 auto;
