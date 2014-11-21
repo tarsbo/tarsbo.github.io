@@ -188,13 +188,27 @@ button {
 		display: none;
 	}
 
-
-.contact {
+	.about{
 	text-align: center;
-	padding-left: 1em;
-	padding-right: 1em;
-	padding-bottom: 1em;
-}
+	width: 100%;
+	padding: 1em;
+	}
+
+	.work {
+		text-align: center;
+		padding-left: 1em;
+	}
+
+	.biotext {
+		padding-top: 1em;
+	}
+
+	.contact {
+		text-align: center;
+		padding-left: 1em;
+		padding-right: 1em;
+		padding-bottom: 1em;
+	}
 
 
 }
