@@ -199,8 +199,16 @@ button {
 		padding-left: 1em;
 	}
 
+	.me {
+		margin: 0 auto;
+	}
+
 	.biotext {
-		padding-top: 1em;
+		text-align: center;
+		padding-top: 2em;
+		padding-left: 3em;
+		padding-right: 3em;
+
 	}
 
 	.contact {
@@ -210,6 +218,9 @@ button {
 		padding-bottom: 1em;
 	}
 
+	.togglenav {
+		display: none;
+	}
 
 }
 
