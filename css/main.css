@@ -115,11 +115,11 @@ a {
 .nav-btn:hover,
 .nav-btn:focus,
 .nav-btn:active {
-	background-color: #000;
+	background-color: #343534;
 	background-position: 0 -40px;
 }
 .nav-btn[data-state="active"] {
-	background-color: #000;
+	background-color: #343534;
 	background-position: -46px -40px;
 }
 
@@ -158,8 +158,12 @@ a {
 	width: 100%;
 }
 
-.about{
+.me {
+	display: block;
 	width: 100%;
+}
+
+.about{
 	padding: 3em;
 }
 
