@@ -1,4 +1,4 @@
-var navTop = document.querySelector('.nav-top');
+var navTop = document.querySelector('.nav-toggle');
 document.querySelector('.nav-btn').addEventListener('click', function (e) {
 	e.preventDefault();
 	if (navTop.getAttribute('data-state') == 'expanded') {
@@ -9,3 +9,14 @@ document.querySelector('.nav-btn').addEventListener('click', function (e) {
 		this.setAttribute('data-state', 'active');
 	}
 });
+
+var logo=$(".logo")
+
+$(".logowrap").waypoint(function(direction){
+	if(direction=="down"){
+		logo.attr("data-state","fixed")
+	} else{
+		logo.attr("data-state","not-fixed")
+	}
+	
+},{offset:"22px"})

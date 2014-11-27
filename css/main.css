@@ -66,6 +66,7 @@ a {
 
 .first {
 	text-align: right;
+	display: none;
 }
 
 .second {
@@ -74,6 +75,24 @@ a {
 
 .third {
 	text-align: left;
+	display: none;
+}
+
+.logo {
+	width: 92px;
+	margin-left: -1px;
+	position: relative;
+	z-index: 1000;
+}
+
+.logo[data-state="fixed"]{
+	position: fixed;
+	left: 50%;
+	margin-left: -47px;
+	top: 17px;}
+
+.logowrap {
+	height: 92px;
 }
 
 .logobackground {
@@ -104,6 +123,12 @@ a {
 	background-position: -46px -40px;
 }
 
+.nav-toggle {
+	display: none;
+}
+
+.nav-toggle[data-state="expanded"]{display: block;}
+
 .footer {
 	clear: both;
 	margin: 0 auto;
@@ -121,7 +146,7 @@ a {
 
 .banner-img {
 	padding-top: 56.25%;
-	background: #ccc url("http://placehold.it/1920x750") no-repeat center center;
+	background: #ccc url("../images/banner-img.jpg") no-repeat center center;
 	background-size: cover;
 
 }
@@ -145,6 +170,11 @@ a {
 
 .work {
 		text-align: center;
+}
+
+.work img {
+	display: block;
+	width: 100%;
 }
 
 label {
@@ -183,11 +213,6 @@ button {
 
 @media only screen and (min-width: 20em) {
 
-	.first,
-	.third {
-		display: none;
-	}
-
 	.about{
 	text-align: center;
 	width: 100%;
@@ -196,7 +221,6 @@ button {
 
 	.work {
 		text-align: center;
-		padding-left: 1em;
 	}
 
 	.me {
@@ -218,10 +242,6 @@ button {
 		padding-bottom: 1em;
 	}
 
-	.togglenav {
-		display: none;
-	}
-
 }
 
 @media only screen and (min-width: 38em) {
@@ -239,6 +259,10 @@ button {
 	.first,
 	.third {
 		display: inline-block;
+	}
+
+	.togglenav {
+		display: none;
 	}
 
 
