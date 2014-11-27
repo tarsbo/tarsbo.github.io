@@ -64,6 +64,11 @@ a {
 	vertical-align: middle;
 }
 
+.nav ul {
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+}
+
 .first {
 	text-align: right;
 	display: none;
@@ -141,14 +146,13 @@ a {
 .banner {
 	text-align: center;
 	position: relative;
-
 }
 
 .banner-img {
 	padding-top: 56.25%;
 	background: #ccc url("../images/banner-img.jpg") no-repeat center center;
 	background-size: cover;
-
+	margin: 0;
 }
 
 .welcome-wrap {
@@ -161,10 +165,6 @@ a {
 .me {
 	display: block;
 	width: 100%;
-}
-
-.about{
-	padding: 3em;
 }
 
 .biotext {
@@ -227,8 +227,10 @@ button {
 		text-align: center;
 	}
 
-	.me {
-		margin: 0 auto;
+	.work img {
+		display: block;
+		width: 100%;
+		padding: 2em;
 	}
 
 	.biotext {
@@ -269,15 +271,36 @@ button {
 		display: none;
 	}
 
+	.first {
+	text-align: right;
+	}
 
-.contact {
-	text-align: center;
-	padding-left: 10em;
-	padding-right: 10em;
-	padding-bottom: 1em;
-}
+	.second {
+		text-align: center;
 
-}
+	}
+
+	.third {
+		text-align: left;
+	}
+
+	.about{
+		padding: 3em;
+	}
+
+	.me {
+		width: 70%;
+		margin: 0 auto;
+	}
+
+	.contact {
+		text-align: center;
+		padding-left: 10em;
+		padding-right: 10em;
+		padding-bottom: 1em;
+	}
+
+	}
 
 @media only screen and (min-width: 60em) {
 
@@ -286,6 +309,12 @@ button {
 	.nav-btn:visited {
 		display: none;
 	}	
+
+
+	.me {
+	width: 50%;
+	margin: 0 auto;
+	}
 }
 
 
