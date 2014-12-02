@@ -130,6 +130,7 @@ a {
 .nav ul {
 	text-align: center;
 	text-decoration: none;
+	list-style-type: none;
 }
 
 .nav-toggle[data-state="expanded"]{display: block;}
@@ -172,6 +173,10 @@ a {
 .work img {
 	display: block;
 	width: 100%;
+}
+
+.work p {
+	padding: 2em;
 }
 
 label {
