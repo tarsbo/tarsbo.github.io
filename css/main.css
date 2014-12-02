@@ -127,6 +127,11 @@ a {
 	display: none;
 }
 
+.nav ul {
+	text-align: center;
+	text-decoration: none;
+}
+
 .nav-toggle[data-state="expanded"]{display: block;}
 
 .footer {
@@ -141,13 +146,6 @@ a {
 .banner {
 	text-align: center;
 	position: relative;
-}
-
-.banner-img {
-	padding-top: 56.25%;
-	background: #ccc url("../images/banner-img.jpg") no-repeat center center;
-	background-size: cover;
-	margin: 0;
 }
 
 .welcome-wrap {
@@ -223,6 +221,13 @@ button {
 		vertical-align: middle;
 	}
 
+	.banner-img {
+		padding-top: 100%;
+		background: #ccc url("../images/banner-img.jpg") no-repeat center center;
+		background-size: cover;
+		margin: 0;
+	}
+
 	.about{
 	text-align: center;
 	width: 100%;
@@ -258,6 +263,33 @@ button {
 
 @media only screen and (min-width: 38em) {
 
+	.banner-img {
+		padding-top: 60%;
+		background: #ccc url("../images/banner-img.jpg") no-repeat center center;
+		background-size: cover;
+		margin: 0;
+	}
+
+	.about{
+		padding: 3em;
+	}
+
+	.me {
+		width: 70%;
+		margin: 0 auto;
+	}
+
+	.contact {
+		text-align: center;
+		padding-left: 10em;
+		padding-right: 10em;
+		padding-bottom: 1em;
+	}
+
+	}
+
+@media only screen and (min-width: 60em) {
+
 	.nav li {
 	display: inline-block;
 	}
@@ -290,36 +322,22 @@ button {
 		text-align: left;
 	}
 
-	.about{
-		padding: 3em;
-	}
-
-	.me {
-		width: 70%;
-		margin: 0 auto;
-	}
-
-	.contact {
-		text-align: center;
-		padding-left: 10em;
-		padding-right: 10em;
-		padding-bottom: 1em;
-	}
-
-	}
-
-@media only screen and (min-width: 60em) {
-
 	.nav-btn,
 	.nav-btn:link,
 	.nav-btn:visited {
 		display: none;
 	}	
 
-
 	.me {
 	width: 50%;
 	margin: 0 auto;
+	}
+
+	.banner-img {
+		padding-top: 56.25%;
+		background: #ccc url("../images/banner-img.jpg") no-repeat center center;
+		background-size: cover;
+		margin: 0;
 	}
 }
 
