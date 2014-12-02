@@ -217,13 +217,19 @@ button {
 
 	.togglenav {
 		text-decoration: none;
-		padding-top: 3em;
 		width: 100%;
 	}
 
 	.nav ul {
 		padding: 0;
+		padding-top: 4em;
 		width: 100%;
+	}
+
+
+	.social {
+		width: 24px;
+		padding: none;
 	}
 
 	.island-1-3 {
