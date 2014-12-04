@@ -227,11 +227,9 @@ button {
 	}
 
 
-	.social {
+	.sociallist {
 		width: 24px;
-		padding: none;
-		text-align: center;
-		vertical-align: middle;
+		display: inline-block;
 	}
 
 	.island-1-3 {
