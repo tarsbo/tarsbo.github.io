@@ -1,25 +1,33 @@
 var navTop = document.querySelector('.nav-toggle');
+var logo = $('.logo');
+var logoWrap = $('.logowrap');
+var currentState = 'not-fixed';
+
 document.querySelector('.nav-btn').addEventListener('click', function (e) {
 	e.preventDefault();
+
 	if (navTop.getAttribute('data-state') == 'expanded') {
 		navTop.setAttribute('data-state', 'collapsed');
 		this.setAttribute('data-state', 'inactive');
+		logoWrap.waypoint('enable');
+		logo.attr('data-state', currentState);
 	} else {
 		navTop.setAttribute('data-state', 'expanded');
 		this.setAttribute('data-state', 'active');
+		logoWrap.waypoint('disable');
+		logo.attr('data-state', 'fixed');
 	}
 });
 
-var logo=$(".logo")
-
-$(".logowrap").waypoint(function(direction){
-	if(direction=="down"){
-		logo.attr("data-state","fixed")
+logoWrap.waypoint(function (direction) {
+	if(direction=='down'){
+		currentState = 'fixed';
+		logo.attr('data-state', 'fixed');
 	} else{
-		logo.attr("data-state","not-fixed")
+		currentState = 'not-fixed';
+		logo.attr('data-state', 'not-fixed');
 	}
-	
-},{offset:"22px"})
+}, { offset: '22px' });
 
 
 
