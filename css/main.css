@@ -168,6 +168,7 @@ a {
 
 .work {
 		text-align: center;
+		overflow: hidden;
 }
 
 .work img {
@@ -177,6 +178,39 @@ a {
 
 .work p {
 	padding: 2em;
+}
+
+.container {
+	margin: 0 auto;
+	position: relative;
+}
+
+.piece { 
+	width: 100%;
+	float: left;
+	padding: .3%;
+	display:inline;
+	margin: 0 auto;
+	-webkkit-transition: all .9s ease-in-out;
+	-webkkit-transition: all .9s ease-in-out;
+	-moz-transition: all .9s ease-in-out;
+}
+
+.piece:hover{
+	background-size:contain;
+	opacity: .5;
+	-webkkit-transition: all .9s ease-in-out;
+	-webkkit-transition: all .9s ease-in-out;
+	-moz-transition: all .9s ease-in-out;
+}
+
+.work-details{
+	display:none;
+	position:absolute;
+}
+
+.work-details[data-state="open"]{
+	display:block;
 }
 
 label {
