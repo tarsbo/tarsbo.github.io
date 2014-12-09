@@ -22,6 +22,12 @@
 	padding: 0;
 }
 
+.cbp-fwslider img {
+	width: 100%;
+	white-space: nowrap;
+	list-style-type: none;
+}
+
 .cbp-fwslider ul li > a,
 .cbp-fwslider ul li > div {
 	display: block;
@@ -92,3 +98,10 @@
 	-moz-transition: box-shadow 0.2s ease-in-out;
 	transition: box-shadow 0.2s ease-in-out;
 }
+
+.close img{
+	width: 40px;
+}
+
+
+

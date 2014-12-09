@@ -176,10 +176,6 @@ a {
 	width: 100%;
 }
 
-.work p {
-	padding: 2em;
-}
-
 .container {
 	margin: 0 auto;
 	position: relative;
@@ -299,6 +295,11 @@ button {
 		padding: 2em;
 	}
 
+	.work p {
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+
 	.biotext {
 		text-align: center;
 		padding-top: 2em;
@@ -332,6 +333,23 @@ button {
 	.me {
 		width: 70%;
 		margin: 0 auto;
+	}
+
+	.work {
+		text-align: center;
+		padding-left: 3em;
+		padding-right: 3em;
+	}
+
+	.work p {
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+
+	.work img {
+		display: block;
+		width: 100%;
+		padding: 2em;
 	}
 
 	.contact {
@@ -393,6 +411,23 @@ button {
 		background: #ccc url("../images/banner-img.jpg") no-repeat center center;
 		background-size: cover;
 		margin: 0;
+	}
+
+	.work {
+		text-align: center;
+		padding-left: 4em;
+		padding-right: 4em;
+	}
+
+	.work p {
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+
+	.work img {
+		display: block;
+		width: 100%;
+		padding: 2em;
 	}
 }
 
