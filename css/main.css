@@ -305,7 +305,6 @@ button {
 		padding-top: 2em;
 		padding-left: 3em;
 		padding-right: 3em;
-
 	}
 
 	.contact {
@@ -404,6 +403,13 @@ button {
 	.me {
 	width: 50%;
 	margin: 0 auto;
+	}
+
+	.biotext {
+		text-align: center;
+		padding-top: 2em;
+		padding-left: 6em;
+		padding-right: 6em;
 	}
 
 	.banner-img {
