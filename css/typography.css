@@ -34,8 +34,11 @@ fieldset, pre, table {
 }
 
 .yotta {
-  font-size: 2.2807rem;
+  font-size: 8.2807rem;
   line-height: 1.3154;
+  font-family: 'Lato', sans-serif;
+  color: #6c6c6c;
+  text-align: center;
 }
 
 .zetta {
@@ -62,6 +65,10 @@ h2, .peta {
 h3, .tera {
   font-size: 1.4238rem;
   line-height: 1.0535;
+  font-family: 'Lato', sans-serif;
+  color: #6c6c6c;
+  text-align: center;
+  padding-top: 4em;
 }
 
 h4, .giga {
@@ -72,11 +79,18 @@ h4, .giga {
 h5, .mega {
   font-size: 1.1250rem;
   line-height: 1.3333;
+  font-family: 'Lato', sans-serif;
+  color: #6c6c6c;
+  text-align: center;
 }
 
 h6, .kilo {
   font-size: 1.0000rem;
   line-height: 1.5000;
+  font-family: 'Lato', sans-serif;
+  color: #6c6c6c;
+  text-align: center;
+  padding-top: 4em;
 }
 
 small, .milli {
